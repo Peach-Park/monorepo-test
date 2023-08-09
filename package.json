@@ -1,0 +1,14 @@
+{
+  "name": "monorepo-test",
+  "version": "1.0.0",
+  "description": "monorepo test repository",
+  "author": "SPH",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "app1:start": "yarn workspace app1 start"
+  }
+}
